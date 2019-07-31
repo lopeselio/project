@@ -1,0 +1,42 @@
+.main-header {
+  background: url(img/BG.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 750px;
+  color: #fff;
+}
+  
+  .main-header .showcase {
+    padding-top: 100px;
+  }
+
+  #pfield, #ufield, .card-panel {
+    border-radius: 20px;
+
+  }
+
+  .login {
+    margin-bottom: 80px; 
+    margin-top: 80px;
+
+  }
+
+  
+
+
+
+  .btn-extended {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: grey;
+    border-radius: 20px;
+
+}
+
+#forgot{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block; 
+}

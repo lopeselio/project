@@ -1,0 +1,43 @@
+.main-header {
+    background: url(img/BG.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 750px;
+    color: #fff;
+  }
+  
+  .main-header .showcase {
+    padding-top: 100px;
+  }
+
+   .card-panel {
+    border-radius: 20px;
+
+  }
+
+  #nameField, #uField, #pfield{
+      border-radius: 20px;
+      width: auto;
+      margin-left: 40px;    
+
+
+  }
+
+   #ageField{
+      border-radius: 20px;
+      width: auto;
+      margin-left: 40px;
+      
+  }
+
+  #roleField{
+      border-radius: 20px;
+      width: auto;
+      margin-left: 40px;
+  }
+
+  #Signup{
+      border-radius: 20px;
+  }
+
+
