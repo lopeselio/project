@@ -39,5 +39,10 @@
   #Signup{
       border-radius: 20px;
   }
+  #footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
 
 

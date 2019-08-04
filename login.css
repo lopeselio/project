@@ -1,3 +1,15 @@
+input {
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
+.card-panel {
+    border-radius: 20px;
+
+
+}
+
 .main-header {
   background: url(img/BG.png);
   background-size: cover;
@@ -10,8 +22,10 @@
     padding-top: 100px;
   }
 
-  #pfield, #ufield, .card-panel {
+  #pfield > input, #ufield > input {
+    height: unset !important;
     border-radius: 20px;
+
 
   }
 
@@ -20,6 +34,13 @@
     margin-top: 80px;
 
   }
+  #footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+
 
   
 

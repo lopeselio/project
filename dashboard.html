@@ -6,7 +6,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <link type="text/css" rel="stylesheet" href="dashboard.css" />
+  <link type="text/css" rel="stylesheet" href="dashboard1.css" />
 
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -80,45 +80,72 @@
       </div>
     </nav>
 
-    <section class="section section-login">
+    <section class="section section-dashboard">
       <div class="container">
         <div class="row">
           <div class="col s12 m10 l12">
-            <div class="card-panel grey lighten-4 blue-text accent-4 center z-depth-2 ">
-              <div class="container">
-                <div class="row">
-                  <div class="col s3">
-                    <ul class="sidenav">
+            <div id="main-card" style="flex-grow: 10; padding: 80px; border-radius: 40px" class="card-panel grey lighten-4 blue-text accent-4 center z-depth-2 ">
+              <div  class="flex-container" style="width: 100%;">
+                
+                  <div style="flex-grow: 1">
+                    <ul id="dashboard-option" class="sidenav">
                       
-                      <li id="vertical-nav" class="active purple darken-2 z-depth-1"><a class="white-text" href="#!"><i class="material-icons">people</i> Attendance</a></li>
-                      <li id="vertical-nav" class="z-depth-1"><a class="grey-text darken-2 " href="#!"><i class="material-icons">queue</i> Add Event</a></li>
+                      <li id="vertical-nav" class="active purple darken-2 z-depth-1" style="padding: 5px 8px; display: flex;"><a class="white-text" href="#!"><i class="material-icons">people</i> Attendance  </a></li>
+                      <li id="vertical-nav" class="z-depth-1"><a class="grey-text darken-2 " href="#!"><i class="material-icons">queue</i> Add Event </a></li>
                       
                     </ul>
                   </div>
-                  <div class="col s9">
-                      <div class="container">
-                          <div class="row">
-                            <div class="col s12 m10 l12">
-                              <div id="small-card" class="card-panel small grey lighten-3 blue-text accent-4 center z-depth-2">
-                              </div>
-                            </div>
-                          </div>
-                      </div>
+                  
+                    
+                    
+                <div id="small-card" style="flex-grow: 7; padding: 0px;" class="card-panel grey lighten-3 blue-text accent-4 center z-depth-2">
+                    <div id="dashboardadmin">
+                    <nav class="">
+                        <div id="dashboardnav" style="flex-grow: 10; border-radius: 15px 15px 0px 0px;" class="purple darken-2 nav-wrapper">
+                            <a href="#" style="margin-left: 10px;" class="brand-logo">Dashboard/<span style="font-size: 20px">Admin</span></a>
+                        </div>
+                    </nav>
+                    </div>
+                    <div class="events">
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                      <div class="white" style="height: 120px; width: 120px; margin: 30px;"></div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            </div>
+                
+                
                           
 
-                  </div>
-                </div>
-              </div>
+              
+              
+              
             </div>
           </div>
         </div>
-      </div>
+      
     </section>
     
     
    
     
-    <footer class="section purple darken-2 white-text center">
+    <footer id="footer" class="section purple darken-2 white-text center">
       <p>RollCall Panel Copyright &copy; 2019</p>
     </footer>
   </header>
