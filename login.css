@@ -6,6 +6,7 @@ input {
 }
 .card-panel {
     border-radius: 20px;
+    padding: 50px;
 
 
 }
@@ -22,12 +23,17 @@ input {
     padding-top: 100px;
   }
 
+  #pfield, #ufield{
+    border-radius: 20px;
+    width: 100% auto;
+     
+  }
+
   #pfield > input, #ufield > input {
     height: unset !important;
     border-radius: 20px;
-
-
   }
+
 
   .login {
     margin-bottom: 80px; 
